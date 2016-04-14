@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: KeepMySettings
+Bundle-SymbolicName: com.elliot.KMS;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.elliot.kms.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.core.resources
+Bundle-ClassPath: lib/com.dropbox.core.dropbox-core-sdk_2.0.1.jar,
+ lib/com.fasterxml.jackson.core.jackson-annotations_2.7.1.jar,
+ lib/com.fasterxml.jackson.core.jackson-core_2.7.1.jar,
+ lib/com.fasterxml.jackson.core.jackson-databind_2.7.1.1.jar,
+ .
